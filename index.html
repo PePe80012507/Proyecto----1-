@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda Electrónica</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <!-- Barra superior -->
+       <header>
+         <div>
+            <img src="../Logo/RGO.JPG" alt="Logo RGO" class="logo">        
+            <span>Envío gratuito en 24 - 72 horas a partir de 65€</span>
+         </div>
+       </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Iniciar de Sesión </a></li>
+        </ul>
+    </nav>
+
+    <!-- Barra de búsqueda -->
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos...">
+            <button type="button">Buscar</button>
+        </div>
+    </nav>
+
+    <!-- Slider de imágenes -->
+    <section>
+        <h1>Bienvenido a Mi Tienda Electrónica</h1>
+        <img src="https://mac-center.com/cdn/shop/files/IMG-10942145_9ffd02ae-e4fb-4236-8a87-43074f2767b7.jpg?v=1723752084&width=823">
+	 <div class="info-imagen">
+		<p><strong>PRECIO:	iPhone 15 Pro Max	|	$1,459.96 USD</strong></p>
+            	<p>Titanio negro, titanio blanco, titanio azul, titanio natural</p>
+            	<p>Diseño de titanio</p>
+            	<p>Frente de Ceramic Shield</p>
+            	<p>Parte posterior de vidrio mate texturizado</p>
+        <img src="https://macstore.com.pa/cdn/shop/files/MacBook_Air_13_in_M3_Midnight_PDP_Image_Position_1__COES_e62d9ee5-dbb0-4405-a911-e94ca7823e04.jpg?v=1721298395	&width=1920">
+	 <div class="info-imagen">
+		<p><strong> PRECIO:	MACBOOK AIR DE 13 PULGADAS 	|	$1,389.96 USD </strong></p>
+	 	<p>pantalla Retina de 13.3 pulgadas con una resolución de 2560×1600 píxeles</p>
+		<p>Touch ID y dos puertos combinados USB-C 3.1 gen 2/Thunderbolt 3</p> 
+		<p>más un conector de audio.</p>	     
+        <img src="https://images.samsung.com/is/image/samsung/latin-fhd-t5300-un43t5300apxpa-frontblack-229166470?$650_519_PNG$">
+	 <div class="info-imagen">
+		<p><strong> PRECIO:	LED FHD T5300	|	409.00 </strong></p>
+		<p>Úsalo con SmartThings</p>
+		<p>Resolución Full HD</p>
+		<p>Funciones Smart Hub y One Remote</p>
+		<p>PurColor</p>
+    </section>
+
+    <!-- Enlaces -->
+    <section>
+        <p>Visita nuestras categorías de productos:</p>
+        <a href="productos.html">Ver Productos</a> <!-- Enlace interno -->
+        <p>O visita otros sitios de interés:</p>
+        <a href="https://www.amazon.com" target="_blank">Compra en Amazon</a> <!-- Enlace externo -->
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+            <p>&copy; 2024 Mi Tienda Electrónica. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/tuusuario" target="_blank" class="icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/tuusuario" target="_blank" class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/tuusuario" target="_blank" class="icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+   </footer>
+   
+   <script>
+      let posicion = 0;
+      const productos = document.getElementById('productos');
+
+    function moverDerecha() { 
+        posicion -= 300;
+        productos.style.transform = 'translateX(' + posicion + '%)';  
+    }
+
+    function moverIzquierda() {
+        posicion += 300;
+        productos.style.transform = 'translateX(' + posicion + '%)';
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,516 @@
+ /* Resetear márgenes y paddings por defecto */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* Estilo para la barra superior (header) */
+header {
+    background-color: #2d2d7c;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555; 
+    border-radius: 5px;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 7px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 7px 15px;
+    background-color: #ff4081;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Resetear márgenes y paddings por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* Estilo para la barra superior (header) */
+header {
+    background-color: #2d2d7c;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header div img {
+    margin-right: 10px;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555; 
+    border-radius: 5px;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 7px 15px;
+    background-color: #ff4081;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Resetear márgenes y paddings por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* Estilo para la barra superior (header) */
+header {
+    background-color: #2d2d7c;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header div img {
+    margin-right: 10px;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555; 
+    border-radius: 5px;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 7px 15px;
+    background-color: #ff4081;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Estilo de la sección de productos */
+.carousel-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.productos {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.producto {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    flex-basis: 30%;
+    text-align: center;
+    padding: 15px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.producto p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.producto strong {
+    font-size: 1.2em;
+    color: #4CAF50;
+}
+
+.producto a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #ff4081;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.producto a:hover {
+    background-color: #ff647d;
+}
+
+/* Flechas de navegación */
+.flecha {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.flecha-izquierda {
+    left: -50px;
+}
+
+.flecha-derecha {
+    right: -50px;
+}
+
+/* Estilos para las imágenes destacadas */
+.info-imagen {
+    text-align: center;
+    padding: 20px;
+}
+
+.info-imagen p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons .icon {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons .icon:hover {
+    color: #ff4081;
+}
+
+/* Flechas de navegación */
+.flecha {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.flecha-izquierda {
+    left: -50px;
+}
+
+.flecha-derecha {
+    right: -50px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons .icon {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons .icon:hover {
+    color: #ff4081;
+}
+
+
+/* Flechas de navegación */
+.flecha {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 1; /* Asegura que las flechas estén delante de los productos */
+}
+
+.flecha-izquierda {
+    left: -50px; /* Separar más de los productos */
+}
+
+.flecha-derecha {
+    right: -50px; /* Separar más de los productos */
+}
+
+ /* Pie de página */
+ footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilos para los iconos sociales en el pie de página */
+.social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los iconos */
+}
+
+.social-icons .icon {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons .icon:hover {
+    color: #ff4081; /* Color al hacer hover */
+}
+
+/*diseño s de la pagina de iniciar sesion*/
+/* Estilo general */
+/* Estilo del formulario */
+h1, h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+.logo {
+    height: 100px;
+  }
